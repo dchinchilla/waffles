@@ -83,7 +83,8 @@ section.taglinebanner {
 
 img.animated-tagline {
     display: block;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 section.contact{
@@ -92,9 +93,9 @@ section.contact{
 	align-items: center;
 	justify-content: center;
 	background-color: #00C1C8;
-	background-image: url(img/lines.svg); 
+	background-image: url(img/lines.svg);
 	background-repeat:no-repeat;
-	background-position: center center; 
+	background-position: center center;
 	color: white;
 }
 .contactcontent{
@@ -203,12 +204,9 @@ section.contact{
 	}
 	.getintouch span{
 		margin-right: 0;
-		font-size: 40px; 
+		font-size: 40px;
 		margin-bottom: 10px;
 	}
 
 
 }/*media query 700px*/
-
-
-
